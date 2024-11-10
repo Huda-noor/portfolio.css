@@ -1,0 +1,96 @@
+/* Navbar.css */
+
+.navbar-container {
+    position: relative;
+    color: #4B5563; 
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 50;
+    position: sticky;
+    top: 0;
+    background-image: url('/assets/11.jpg');
+  }
+  
+  .navbar-section {
+    color: #4B5563;
+    font-family: Arial, sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .navbar-header {
+    color: #4B5563;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    color: #1F2937; 
+    margin-bottom: 1rem;
+  }
+  
+  .navbar-title {
+    font-size: 2rem;
+    color: #1D4ED8; 
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+  
+  .navbar-links {
+    color: #1F2937; 
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .navbar-link {
+    margin-right: 1.25rem;
+    font-size: 1rem;
+    color: #1F2937; 
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #2563EB;
+  }
+  
+  .navbar-button-link {
+    text-decoration: none;
+  }
+  
+  .navbar-button {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    background-color: #3B82F6;
+    border: none;
+    padding: 0.25rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-button:hover {
+    background-color: #2563EB;
+  }
+  

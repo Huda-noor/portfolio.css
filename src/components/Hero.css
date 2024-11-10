@@ -1,0 +1,137 @@
+
+
+.hero-section {
+    position: relative;
+    color: #4B5563;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/assets/11.jpg');
+}
+  
+  .hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 6rem 1.25rem;
+    align-items: center;
+   
+  }
+  
+  @media (min-width: 768px) {
+    .hero-container {
+      flex-direction: row;
+    }
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-content {
+      align-items: flex-start;
+      text-align: left;
+      margin-bottom: 0;
+      max-width: 50%;
+      padding-right: 4rem;
+    }
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #1E3A8A;
+  }
+  
+  @media (min-width: 640px) {
+    .hero-title {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hero-title {
+      font-size: 4rem;
+    }
+  }
+  
+  .hero-name {
+    color: #065F46;
+    font-size: 2.5rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .hero-name {
+      font-size: 3rem;
+    }
+  }
+  
+  .hero-underline {
+    width: 100px;
+    height: 5px;
+    background-color: #3B82F6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-description {
+    font-size: 1.3rem;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-contact {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-button {
+    color: white;
+    background-color: #3B82F6;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.375rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background-color: #2563EB;
+    transform: scale(1.05);
+  }
+  
+  .hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-image-container {
+      max-width: 50%;
+    }
+  }
+  
+  .hero-image-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-image {
+    object-fit: cover;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+  }
+  
