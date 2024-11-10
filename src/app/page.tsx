@@ -1,6 +1,4 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import { div } from "framer-motion/client";
+
 import Hero from "@/components/Hero";
 import Skill from "@/components/Skills";
 import About from "@/components/About";
